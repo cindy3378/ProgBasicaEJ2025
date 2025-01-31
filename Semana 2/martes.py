@@ -5,5 +5,5 @@ cindy=[Encabezados,Datos]
 
 alumno={}
 alumno['2143633']=cindy
-print("hila mundo")
+
 print(alumno)
