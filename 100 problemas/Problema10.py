@@ -9,7 +9,7 @@ with open("archivo.txt", "r") as archivo:                #Usa la función open p
 print("\nContenido original del archivo:\n", contenido_leido)     #Se imprime el contenido que se acaba de leer.
 
 contenido_extra = input("Escribe el contenido adicional que quieres agregar: ")
-with open("archivo.txt", "a") as archivo:                #Abre el archivo en modo añadir ("a").
+with open("archivo.txt", "a") as archivo:                #Abre el archivo en modo añadir  ("a").
     archivo.write(contenido_extra + "\n")
 
 with open("archivo.txt", "r") as archivo:                #Vuelve a abrir el archivo en modo lectura ("r") para leer su contenido modificado.
