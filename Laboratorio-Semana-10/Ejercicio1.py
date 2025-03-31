@@ -1,8 +1,3 @@
-# Solicitar texto al usuario
-txt = input("Ingrese un texto: ")
-analizar_texto(txt)
-
-
 def analizar_texto(texto):
     palabras = texto.lower().split()          #Convertir el texto a minúsculas y dividir el texto en una lista de palabras
     total_palabras = len(palabras)            #Contar el número total de palabras
@@ -24,3 +19,6 @@ def analizar_texto(texto):
         print(f"{palabra}: {frecuencia}")
     print(f"Palabra más frecuente: '{palabra_mas_frecuente}' con {max_frecuencia} apariciones.")
 
+# Solicitar texto al usuario
+txt = input("Ingrese un texto: ")
+analizar_texto(txt)
